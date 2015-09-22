@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Main{
+    public static void main(String[]args){
+        Scanner myln=new Scanner(System.in);
+        int num;
+        num=myln.nextInt();
+        CheckIt cI=new CheckIt();
+        if(cI.isDivisible(num)){
+            System.out.println("Yup");
+        }else{
+            System.out.println("Nope");
+        }
+    }
+}
