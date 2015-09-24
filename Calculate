@@ -1,0 +1,19 @@
+public class Calculate{
+    public double r,v,s;
+    public final double PI=3.14159265359;
+    public void calcVol(){
+        v=4/3*PI*r*r;
+    }
+    public void calcSur(){
+        s=4*PI*r*r;
+    }
+    public double getV(){
+        return v;
+    }
+    public double getS(){
+        return s;
+    }
+    public void setR(double radius){
+        r=radius;
+    }
+}
