@@ -1,0 +1,11 @@
+public class Palindrome{
+    public static void main(String[] args){
+        int n = Integer.valueOf(args[0]);
+        Check ch = new Check(n);
+        if(ch.isDrome()){
+            System.out.println("It is a palindrome!");
+        }else{
+            System.out.println("It isn't a palindrome!");
+        }
+    }
+}
