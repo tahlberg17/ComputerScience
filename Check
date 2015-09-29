@@ -1,10 +1,10 @@
 public class Check{
-    private int number, reverse;
-    public Check(int n){
+    private long number, reverse;
+    public Check(long n){
         number = n;
         reverse = 0;
         while(n > 0){
-            int rem = n % 10;
+            long rem = n % 10;
             n = n / 10;
             reverse = reverse*10 + rem;
         }
