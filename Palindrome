@@ -1,6 +1,6 @@
 public class Palindrome{
-    public static void main(String[] args){
-        int n = Integer.valueOf(args[0]);
+    public static void main(String[]args){
+        long n = Long.valueOf(args[0]);
         Check ch = new Check(n);
         if(ch.isDrome()){
             System.out.println("It is a palindrome!");
