@@ -7,7 +7,7 @@ public class Seven{
             times = input / 7;
             System.out.println(times);
         }else{
-            System.out.println("Nope");
+            System.out.println("It is not divisible by seven!");
         }
     }
 }
