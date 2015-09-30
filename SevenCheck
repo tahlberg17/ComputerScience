@@ -1,0 +1,9 @@
+public class SevenCheck{
+    public boolean canSeven(double input){
+        if(input%7==0){
+            return true;
+        }else{
+            return false;
+        }
+    }
+}
