@@ -1,0 +1,13 @@
+public class Seven{
+    public static void main(String[]args){
+        double input = Double.valueOf(args[0]);
+        SevenCheck sv=new SevenCheck();
+        if(sv.canSeven(input)){
+            double times;
+            times = input / 7;
+            System.out.println(times);
+        }else{
+            System.out.println("Nope");
+        }
+    }
+}
