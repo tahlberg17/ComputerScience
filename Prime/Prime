@@ -1,0 +1,11 @@
+public class Prime{
+    public static void main(String[]args){
+        int input = Integer.valueOf(args[0]);
+        PrimeCheck pc=new PrimeCheck();
+        if(pc.isPrime(input)){
+            System.out.println("It is prime!");
+        }else{
+            System.out.println("It isn't prime!");
+        }
+    }
+}
