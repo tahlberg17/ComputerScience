@@ -1,0 +1,16 @@
+public class TripleCalculate{
+    double y;
+    public void calcFunction(double input){
+        double x=input;
+        if(x>0){
+            y=x*x-3*x;
+        }else if(x==0){
+            y=3;
+        }else{
+            y=x-3;
+        }
+    }
+    public double getY(){
+        return y;
+    }
+}
