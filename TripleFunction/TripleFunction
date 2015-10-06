@@ -1,0 +1,8 @@
+public class TripleFunction{
+    public static void main(String[]args){
+        double input = Double.valueOf(args[0]);
+        TripleCalculate tc=new TripleCalculate();
+        tc.calcFunction(input);
+        System.out.println(tc.getY());
+    }
+}
